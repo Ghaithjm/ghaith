@@ -1,0 +1,88 @@
+.socials-top{
+	top:32px !important;
+}
+.socials-top + .navbar-inverse {
+    top: 79px !important;
+}
+
+.navbar-inverse {
+    top: 32px !important;
+}
+
+.navbar-fixed-top.shrink{
+    margin-top: 32px;
+    top: 0 !important;
+}
+
+@media(max-width: 768px){
+	.socials-top{
+		top:46px !important;
+	}
+	.socials-top + .navbar-inverse {
+		top: 102px !important;
+	}
+	.navbar-inverse {
+			top: 45px !important;
+	}
+	.navbar-fixed-top.shrink{
+		margin-top:0 !important;
+		top:45px !important;
+	}
+}
+
+@media screen and (max-width: 522px) and (min-width: 327px){
+	.navbar-inverse {
+		top: 45px !important;
+	}
+	
+	.socials-top + .navbar-inverse {
+		top: 155px !important;
+	}
+	
+	.navbar-fixed-top.shrink{
+		top:0 !important;
+	}
+}
+
+.type-radio-image img[alt="Dual Sidebar"],
+.type-radio-image img[alt="Left Dual Sidebar"],
+.type-radio-image img[alt="Right Dual Sidebar"] {
+    display: none;
+}
+
+.appearance_page_ot-theme-options .ui-widget-header {
+    border: none;
+    background: none;
+}
+
+.appearance_page_ot-theme-options .ui-tabs .ui-tabs-nav li,
+.appearance_page_ot-theme-options .ui-tabs .ui-tabs-nav li a{
+	float:none;
+    font-size: 13px;
+}
+
+.appearance_page_ot-theme-options .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: none !important;
+}
+
+.appearance_page_ot-theme-options  .ui-widget-header .ui-state-default.ui-tabs-active {
+    background: #fff !important;
+    border-bottom: 1px solid #ccc !important;
+}
+
+#option-tree-settings-api > .ui-tabs {
+    padding: 0;
+}
+
+.ot-theme-option-tabs.ui-widget {
+    border: none;
+    padding: 0;
+}
+
+.appearance_page_ot-theme-options .ot-theme-option-tabs .ui-widget-header .ui-state-default.ui-tabs-active {
+    border-bottom: 1px solid transparent !important;
+}
+
+.appearance_page_ot-theme-options .ui-tabs .ui-tabs-panel{
+	padding:0;
+}
